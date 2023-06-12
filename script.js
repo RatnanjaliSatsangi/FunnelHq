@@ -77,7 +77,7 @@ var originalOrder = Array.from(container1.children);
 // Reset the containers and message
 function resetContainers() {
     // Move all items back to the original container in the original order
-    
+
     container2.innerHTML = "";
     originalOrder.forEach(function (item) {
         container1.appendChild(item);
